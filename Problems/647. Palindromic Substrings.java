@@ -7,7 +7,6 @@ class Solution {
             int evencount=checkpal(s,i,i+1);
 
             int oddcount=checkpal(s,i-1,i+1);
-
             count=count+evencount+oddcount+1;
         }
         return count;
