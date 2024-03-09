@@ -18,7 +18,7 @@ public class Solution {
                 }
             }
             else{
-                if(map.getOrDefault(b,0)>1) {
+                if(map.getOrDefault(b,0)>1){
                     count+=map.getOrDefault(b,0)-1;
                     map.put(a,map.getOrDefault(a,0)-1);
 
