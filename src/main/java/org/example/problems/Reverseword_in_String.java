@@ -8,7 +8,7 @@ public class Reverseword_in_String {
         for(int i=n-1;i>=0;i--){  //System.out.print(x+"-"+str.length);
             sb.append(str[i]);
             if(i!=0)
-                sb.append(" ");
+                sb.append("  ");
         }
         //sb.reverse();
         // int j=n;
